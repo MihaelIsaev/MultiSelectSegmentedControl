@@ -8,18 +8,29 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, MultiSelectSegmentedControlDelegate {
+    
+    @IBOutlet weak var days: MultiSelectSegmentedControl!
+    @IBOutlet weak var simple: MultiSelectSegmentedControl!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        days.delegate = self
+        simple.delegate = self
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func selectAll() {
+        days.selectAllSegments(true)
+        simple.selectAllSegments(true)
     }
-
-
+    
+    @IBAction func selectNone() {
+        days.selectAllSegments(false)
+        simple.selectAllSegments(false)
+    }
+    
+    func multiSelect(multiSelectSegmendedControl: MultiSelectSegmentedControl, didChangeValue value: Bool, atIndex index: Int) {
+        print("delegate value: \(value) atIndex: \(index)")
+    }
 }
 
