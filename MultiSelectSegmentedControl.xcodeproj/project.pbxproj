@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		471DCD061E75ED6000CFA78D /* MultiSelectSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471DCD051E75ED6000CFA78D /* MultiSelectSegmentedControl.swift */; };
 		4781510A1E75B1A1003F3085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478151091E75B1A1003F3085 /* AppDelegate.swift */; };
 		4781510C1E75B1A1003F3085 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4781510B1E75B1A1003F3085 /* ViewController.swift */; };
 		4781510F1E75B1A1003F3085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4781510D1E75B1A1003F3085 /* Main.storyboard */; };
 		478151111E75B1A1003F3085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478151101E75B1A1003F3085 /* Assets.xcassets */; };
 		478151141E75B1A1003F3085 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478151121E75B1A1003F3085 /* LaunchScreen.storyboard */; };
-		4781511C1E75B1AF003F3085 /* MultiSelectSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4781511B1E75B1AF003F3085 /* MultiSelectSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		471DCD051E75ED6000CFA78D /* MultiSelectSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiSelectSegmentedControl.swift; sourceTree = SOURCE_ROOT; };
 		478151061E75B1A1003F3085 /* MultiSelectSegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiSelectSegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		478151091E75B1A1003F3085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4781510B1E75B1A1003F3085 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		478151101E75B1A1003F3085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		478151131E75B1A1003F3085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		478151151E75B1A1003F3085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4781511B1E75B1AF003F3085 /* MultiSelectSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiSelectSegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				478151091E75B1A1003F3085 /* AppDelegate.swift */,
 				4781510B1E75B1A1003F3085 /* ViewController.swift */,
-				4781511B1E75B1AF003F3085 /* MultiSelectSegmentedControl.swift */,
+				471DCD051E75ED6000CFA78D /* MultiSelectSegmentedControl.swift */,
 				4781510D1E75B1A1003F3085 /* Main.storyboard */,
 				478151101E75B1A1003F3085 /* Assets.xcassets */,
 				478151121E75B1A1003F3085 /* LaunchScreen.storyboard */,
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4781510C1E75B1A1003F3085 /* ViewController.swift in Sources */,
-				4781511C1E75B1AF003F3085 /* MultiSelectSegmentedControl.swift in Sources */,
+				471DCD061E75ED6000CFA78D /* MultiSelectSegmentedControl.swift in Sources */,
 				4781510A1E75B1A1003F3085 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +304,7 @@
 				4781511A1E75B1A1003F3085 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
