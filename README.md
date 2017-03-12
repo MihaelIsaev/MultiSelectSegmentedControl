@@ -17,7 +17,7 @@ No need for images - works with the builtin styles of UISegmentedControl.
 
 Simply Copy and Paste `MultiSelectSegmentedControl.swift` file in your Xcode Project :)
 
-**Usage**
+## Usage
 
 Drag a `UISegmentedControl` into your view in Interface Builder.
 
