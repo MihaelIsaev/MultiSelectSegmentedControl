@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Vt7-DM-HMw" customClass="MultiSelectSegmentedControl" customModule="MultiSelectSegmentedControl" customModuleProvider="target">
-                                <rect key="frame" x="10" y="319" width="355" height="29"/>
+                                <rect key="frame" x="10" y="76" width="355" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="OGA-NL-lmY"/>
                                 </constraints>
@@ -34,21 +34,21 @@
                                 </segments>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bl2-mF-nJG">
-                                <rect key="frame" x="10" y="355" width="65" height="30"/>
+                                <rect key="frame" x="10" y="112" width="65" height="30"/>
                                 <state key="normal" title="Select All"/>
                                 <connections>
                                     <action selector="selectAll" destination="BYZ-38-t0r" eventType="touchUpInside" id="DL2-WR-GD7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c35-Dq-EgT">
-                                <rect key="frame" x="281" y="355" width="84" height="30"/>
+                                <rect key="frame" x="281" y="112" width="84" height="30"/>
                                 <state key="normal" title="Select None"/>
                                 <connections>
                                     <action selector="selectNone" destination="BYZ-38-t0r" eventType="touchUpInside" id="hdw-MU-jW5"/>
                                 </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="5w0-3E-fCX" customClass="MultiSelectSegmentedControl" customModule="MultiSelectSegmentedControl" customModuleProvider="target">
-                                <rect key="frame" x="10" y="283" width="355" height="29"/>
+                                <rect key="frame" x="10" y="40" width="355" height="29"/>
                                 <segments>
                                     <segment title="Mon"/>
                                     <segment title="Tue"/>
@@ -69,7 +69,7 @@
                             <constraint firstItem="c35-Dq-EgT" firstAttribute="top" secondItem="Vt7-DM-HMw" secondAttribute="bottom" constant="8" id="HaT-20-5h6"/>
                             <constraint firstAttribute="trailing" secondItem="c35-Dq-EgT" secondAttribute="trailing" constant="10" id="aCW-bs-qEq"/>
                             <constraint firstItem="Bl2-mF-nJG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="ad6-vR-kJB"/>
-                            <constraint firstItem="Vt7-DM-HMw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mK0-df-rNc"/>
+                            <constraint firstItem="5w0-3E-fCX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="tMF-Wk-vnj"/>
                             <constraint firstItem="Vt7-DM-HMw" firstAttribute="top" secondItem="5w0-3E-fCX" secondAttribute="bottom" constant="8" id="uzW-4e-tJW"/>
                             <constraint firstItem="Bl2-mF-nJG" firstAttribute="top" secondItem="Vt7-DM-HMw" secondAttribute="bottom" constant="8" id="vbM-q5-fMk"/>
                         </constraints>
