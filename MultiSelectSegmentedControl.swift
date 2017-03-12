@@ -24,7 +24,12 @@ open class MultiSelectSegmentedControl: UISegmentedControl {
             if newValue.count == 0 {
                 selectedIndexes = newValue
             } else {
-                let validIndexes = IndexSet(integersIn: 0...numberOfSegments-1)
+                var validIndexes = IndexSet()
+                for index in newValue {
+                    if index < numberOfSegments {
+                        validIndexes.insert(index)
+                    }
+                }
                 selectedIndexes = validIndexes
             }
             selectSegmentsOfSelectedIndexes()

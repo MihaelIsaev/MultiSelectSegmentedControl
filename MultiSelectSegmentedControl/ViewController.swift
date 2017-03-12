@@ -17,6 +17,9 @@ class ViewController: UIViewController, MultiSelectSegmentedControlDelegate {
         super.viewDidLoad()
         days.delegate = self
         simple.delegate = self
+        days.selectedSegmentIndexes = IndexSet(integersIn: 1...2)
+        days.selectedSegmentIndexes.insert(4)
+        simple.selectedSegmentIndexes = IndexSet(integer: 2)
     }
     
     @IBAction func selectAll() {
