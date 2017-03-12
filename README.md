@@ -13,6 +13,10 @@ A subclass of UISegmentedControl that supports selection multiple segments.
 
 No need for images - works with the builtin styles of UISegmentedControl.
 
+## Installation
+
+Simply Copy and Paste `MultiSelectSegmentedControl.swift` file in your Xcode Project :)
+
 **Usage**
 
 Drag a `UISegmentedControl` into your view in Interface Builder.
