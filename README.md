@@ -1,8 +1,10 @@
-
-[![Language: Swift 3](https://img.shields.io/badge/language-swift 3-f48041.svg?style=flat)](https://developer.apple.com/swift)
 [![Release version](https://img.shields.io/badge/release-1.0-green.svg)]()
 
-###Swift 3.0.1
+# Deprecated
+
+Take a look at my new awesome [UIKitPlus](https://github.com/MihaelIsaev/UIKitPlus) lib which will give you an ability to build this kind of control in a minute.
+
+### Swift 3.0.1
 
 # MultiSelectSegmentedControl
 *multiple selection segmented control rewritten from [yonat Obj-C lib](https://github.com/yonat/MultiSelectSegmentedControl)*
